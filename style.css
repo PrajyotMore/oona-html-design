@@ -40,3 +40,250 @@ header nav {
   height: 17.514px;
   flex-shrink: 0;
 }
+
+
+/* Footer section start */
+
+
+.footer_container {
+  width: 100%;
+  height: 218px;
+  background: var(--oona-purple);
+  border-top: 1px #E1E2E2 solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer_wrapper{
+  width: 100%;
+}
+.footer_row1{
+  width: 100%;
+  padding-top: 58px;
+    padding-left: 51px;
+    padding-right: 57px;
+}
+
+.footer_row2{
+  width: 100%;
+  padding-left: 51px;
+  padding-bottom: 54px;
+  padding-right: 34px;
+}
+
+
+
+.footer_content2{
+  width: 100%;
+    display: flex;
+}
+
+
+
+.copyright {
+  color: #9180AE;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 16.80px;
+  word-wrap: break-word;
+}
+
+
+.company_name {
+  color: #9180AE;
+}
+
+
+/* .submit-button, */
+
+
+.contact_button1 {
+  height: 40px;
+  padding: 6.40px 16px;
+  background: var(--secondary-medium-turquoise);
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px #4AC6BB solid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 18.20px;
+  letter-spacing: 0.14px;
+  word-wrap: break-word;
+}
+
+.forms_input{
+  display: flex;
+  position: relative;
+}
+.contact_button2 {
+  height: 40px;
+  padding: 6.40px 16px;
+  background: var(--oona-purple);
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px  #E1E2E2 solid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 18.20px;
+  letter-spacing: 0.14px;
+  word-wrap: break-word;
+  margin-left: 19px;
+}
+
+
+.footer_logo {
+  width: 72;
+  height: 17px;
+}
+
+
+.updates {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+}
+
+.updates_heading {
+  color: #DCD6E9;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 16.80px;
+  word-wrap: break-word;
+}
+
+.email_icon{
+  position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.email_input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  border-radius: 4px;
+  border: 1px #818F99 solid;
+  padding: 10px 42px;
+}
+
+
+.social {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+
+.social_heading {
+  color: #DCD6E9;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 16.80px;
+  word-wrap: break-word;
+}
+
+.social_media_icons{
+  display: inline-flex;
+align-items: center;
+gap: 40px;
+}
+
+.concerns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.concerns_heading {
+  color: #DCD6E9;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 16.80px;
+  word-wrap: break-word;
+  padding-top: 10px;
+  padding-right: 25px;
+}
+
+
+.footer_links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer_link {
+  padding: 6.40px 16px;
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px #8C5ACB solid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  text-align: center;
+  color: #DCD6E9;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.separator {
+  width: 1px;
+  height: 20px;
+  background-color: #8C5ACB;
+}
+
+.footer_policy{
+  display: flex;
+  flex-direction: column;
+height: 24px;
+padding: 43.4px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #DCD6E9;
+}
+
+@media (max-width: 768px) {
+  .footer_content1,.footer_content2 {
+      flex-basis: 100%;
+      text-align: center;
+  }
+  .footer_links {
+      flex-basis: 100%;
+      justify-content: center;
+  }
+}
+
+/* Footer section ends */
+
